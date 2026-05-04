@@ -1,16 +1,39 @@
-# React + Vite
+# Motorcycle React Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite lab for testing a 3D motorcycle homepage component before migrating it into the full Motorcycle Maintenance Tracker.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This repo is a safe testing space for learning React and experimenting with a 3D motorcycle hero section.
 
-## React Compiler
+The goal is to prototype:
+- React component structure
+- A 3D motorcycle viewer
+- A future 2D / 3D toggle
+- Homepage layout ideas before moving them into the main tracker project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- Google `<model-viewer>`
+- GLB 3D model assets
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Current Features
+
+- React app setup with Vite
+- 3D motorcycle model rendered on the homepage
+- Separate `HeroBikeViewer` component
+- Basic responsive homepage layout
+
+## Project Status
+
+In progress. This is a learning and prototype repo, not the production version of the Motorcycle Maintenance Tracker.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
